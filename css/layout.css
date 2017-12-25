@@ -1,25 +1,52 @@
-                            .container {
-                                max-width: 1300px;
-                                background-color: rgb(185, 167, 167);
-                                margin: auto auto 0 auto;
-                                padding: 2px 2px;
-                            }
-                            
-                            .content {
-                                margin: auto;
-                                display: flex;
-                                flex-flow: wrap;
-                            }
-                            
-                            div {
-                                padding: 15px;
-                                margin: 3px;
-                            }
-                            
-                            .content div:nth-child(2n) {
-                                background-color: rgb(194, 194, 194);
-                            }
-                            
-                            .content div:nth-child(2n+1) {
-                                background-color: rgb(105, 101, 101);
-                            }
+.container {
+    max-width: 1300px;
+    background-color: rgb(185, 167, 167);
+    margin: auto auto 0 auto;
+    padding: 2px 2px;
+    
+}
+
+.content {
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+}
+
+div {
+    padding: 15px;
+    margin: 3px;
+}
+
+.header-area {
+   flex-basis: 100%;
+}
+.menu-area{
+    flex-basis:100%;
+}
+
+.filters-area{
+
+    flex-basis:60%;
+    
+}
+
+.right-sidebar{
+    flex-grow:1;
+}
+
+.list-area{
+
+    flex-basis:60%;
+}
+
+.form-area{
+    flex-basis:100%;
+}
+
+.content div:nth-child(2n) {
+    background-color: rgb(194, 194, 194);
+}
+
+.content div:nth-child(2n+1) {
+    background-color: rgb(105, 101, 101);
+}
