@@ -1,6 +1,6 @@
 .container {
     max-width: 1300px;
-    background-color: rgb(185, 167, 167);
+    /* background-color: rgb(185, 167, 167); */
     margin: auto auto 0 auto;
     padding: 2px 2px;
     
@@ -24,11 +24,6 @@ div {
     flex-basis:100%;
 }
 
-.filters-area{
-
-    flex-basis:60%;
-    
-}
 
 .right-sidebar{
     flex-grow:1;
@@ -43,10 +38,10 @@ div {
     flex-basis:100%;
 }
 
-.content div:nth-child(2n) {
+/* .content div:nth-child(2n) {
     background-color: rgb(194, 194, 194);
 }
 
 .content div:nth-child(2n+1) {
     background-color: rgb(105, 101, 101);
-}
+} */
