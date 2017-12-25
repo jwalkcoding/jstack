@@ -1,19 +1,24 @@
 <div ng-controller="mainCtrl" class="container">
 
     <div class="content">
+        <div class="section header-area">
+            <label for="header">MyApp</label>
+        </div>
+        <div class="section menu-area">Menu</div>
 
-        <div class="header-area">Header</div>
-
-        <div class="menu-area">Menu</div>
-
-        <div class="list-area">
+        <div class="section list-area">
             <list-row></list-row>
         </div>
 
-        <div class="right-sidebar">Assign</div>
+        <div class="section right-sidebar">Assign</div>
 
         <div class="form-area">
-            <entry-form></entry-form>
+
+            <div class="section"> 
+                    <entry-form></entry-form>
+                    <team-form></team-form>
+            </div>
+        
         </div>
 
     </div>

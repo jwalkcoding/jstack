@@ -1,9 +1,6 @@
-#myEntryForm {
+#myTeamForm {
     background-color: rgb(207, 191, 196);
-    flex-basis:60%;
     min-height: 50px;
+    flex-grow:1;
     margin:2px;
-    flex-flow:wrap;
 }
-
-
