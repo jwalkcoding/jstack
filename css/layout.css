@@ -44,7 +44,14 @@ div {
 .list-area {
     flex-basis: 60%;
 }
-
+.rowitem{
+    border:solid;
+    border-width: thin;
+    border-color:grey;
+    margin:2px;
+    min-height:50px;
+    padding:5px;
+}
 .form-area {
     flex-basis: 100%;
 }

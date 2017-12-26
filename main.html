@@ -7,18 +7,22 @@
         <div class="section menu-area">Menu</div>
 
         <div class="section list-area">
-            <list-row></list-row>
+
+            <div ng-repeat="x in records">
+                    <list-row></list-row>
+            </div>
+            
         </div>
 
         <div class="section right-sidebar">Assign</div>
 
         <div class="form-area">
 
-            <div class="section"> 
-                    <entry-form></entry-form>
-                    <team-form></team-form>
+            <div class="section">
+                <entry-form></entry-form>
+                <team-form></team-form>
             </div>
-        
+
         </div>
 
     </div>
