@@ -17,7 +17,7 @@ body {
 .section {
     margin: 2px;
     padding:5px;
-    border: solid;
+    /* border: solid; */
     border-width: thin;
     border-color: rgb(197, 195, 195);
 }
@@ -53,7 +53,21 @@ body {
     flex-wrap: wrap;
 }
 
-
+.list-area hr{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+/* DATE PICKER STYLING */
+.full button span {
+    background-color: limegreen;
+    border-radius: 32px;
+    color: black;
+  }
+  .partially button span {
+    background-color: orange;
+    border-radius: 32px;
+    color: black;
+  }
 /* .content div:nth-child(2n) {
     background-color: rgb(194, 194, 194);
 }
