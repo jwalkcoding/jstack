@@ -1,16 +1,16 @@
-<div ng-controller="mainCtrl" class="container">
+<div ng-controller="mainCtrl" class="flex-column flex-fill">
 
+    <div class="header-area">
+        <h3>{{appName}}</h3>
+    </div>
     <div class="content">
-        <div class="section header-area">
-            <label for="header">MyApp</label>
-        </div>
-        <div class="section menu-area">Menu</div>
+
+        <div class="menu-area">Menu</div>
 
         <div class="section list-area">
 
-            <div class="list-group">
-                
-                    <list-row></list-row>
+            <div ng-repeat="record in records">
+                    <list-row record-object="record"></list-row>
             </div>
             
         </div>

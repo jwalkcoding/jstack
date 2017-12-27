@@ -6,8 +6,9 @@ myApp.directive('listRow', function() {
         replace: true,
         scope:{
 
-            contactObj:'='
+           recordObject:'='
+            
         }
     };
 
-})
+});
