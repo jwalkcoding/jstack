@@ -1,6 +1,18 @@
 myApp.controller('mainCtrl', function ($scope) {
 
     $scope.appName = 'Case Resolution Management System';
+
+    $scope.startSearchDate=null;
+
+    $scope.openStartDatePicker = function() {
+        $scope.startDatePickerPopStatus.opened = true;
+      };
+
+      $scope.startDatePickerPopStatus = {
+        opened: false
+      };
+
+
     $scope.records = [{
         "Name": "Alfreds Futterkiste",
         "Country": "Germany"
